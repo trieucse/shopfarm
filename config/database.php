@@ -55,8 +55,8 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', 'localhost'),
-            'unix_socket'   => '/Applications/MAMP/tmp/mysql/mysql.sock',
-            'dump_command_path' => '/Applications/MAMP/Library/bin/', // only the path, so without 'mysqldump' or 'pg_dump'
+//            'unix_socket'   => '/Applications/MAMP/tmp/mysql/mysql.sock',
+//            'dump_command_path' => '/Applications/MAMP/Library/bin/', // only the path, so without 'mysqldump' or 'pg_dump'
             'dump_command_timeout' => 60 * 5, // 5 minute timeout
             'dump_using_single_transaction' => true,
             'port' => env('DB_PORT', '3306'),
