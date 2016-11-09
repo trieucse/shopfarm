@@ -1,0 +1,26 @@
+.logo{
+    margin: 0 auto;
+}
+/*
+ * Specific styles of signin component
+ */
+/*
+ * General styles
+ */
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(253, 253, 253), rgb(85, 164, 163));
+}
+.login-form .box-header .box-title{
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+.login-form .box-header{
+    text-align: center;
+}
+.login-form .box.box-default{
+    border-radius: 40px;
+}

@@ -2,9 +2,7 @@
   <div @include('crud::inc.field_wrapper_attributes') >
 
     <label>{{ $field['label'] }}</label>
-    <select
-    	class="form-control"
-        id="select_template"
+    <select  class="form-control" id="select_template">
 
     	@foreach ($field as $attribute => $value)
             @if (!is_array($value))

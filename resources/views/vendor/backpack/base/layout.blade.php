@@ -55,7 +55,7 @@
         <nav class="navbar navbar-static-top" role="navigation">
           <!-- Sidebar toggle button-->
           <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-            <span class="sr-only">{{ trans('backpack::base.toggle_navigation') }}</span>
+            <span class="sr-only">{{ trans('base.toggle_navigation') }}</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -89,10 +89,10 @@
       <footer class="main-footer">
         @if (config('backpack.base.show_powered_by'))
             <div class="pull-right hidden-xs">
-              {{ trans('backpack::base.powered_by') }} <a target="_blank" href="http://hasuko.xyz">hasuko</a>
+              {{ trans('base.powered_by') }} <a target="_blank" href="http://hasuko.xyz">hasuko</a>
             </div>
         @endif
-        {{ trans('backpack::base.handcrafted_by') }} <a target="_blank" href="{{ config('backpack.base.developer_link') }}">{{ config('backpack.base.developer_name') }}</a>.
+        {{ trans('base.handcrafted_by') }} <a target="_blank" href="{{ config('backpack.base.developer_link') }}">{{ config('backpack.base.developer_name') }}</a>.
       </footer>
     </div>
     <!-- ./wrapper -->

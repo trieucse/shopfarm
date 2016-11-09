@@ -17,6 +17,7 @@ return [
     'user'                 => 'USER',
     'logout'               => 'Logout',
     'login'                => 'Login',
+    'login_lb'                => 'Login',
     'register'             => 'Register',
     'name'                 => 'Name',
     'email_address'        => 'E-Mail Address',
